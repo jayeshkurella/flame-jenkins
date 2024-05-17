@@ -1,0 +1,92 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "480-360-sample.tiff-item",
+  "properties": {
+   "major": "Natural Resources",
+            "submajor": "Forests",
+            "minor": "Bangalore",
+            "subminor": "Forest",
+            "grade": "Forest",
+            "file_formats": "A",
+            "type": "JPEG",
+            "source_description": "Geospatial",
+            "place_city": "Bangalore",
+            "year": "2023",
+            "publisher": "Government of Karnataka",
+            "path": "Government of Karnataka",
+            "collection": "/path/to/bangalore_forest",
+            "collection_type": "Flora and Fauna Collection",
+            "soi_toposheet_no": "Protected Area",
+            "data_resolution": "56789",
+            "ownership": "A",
+            "is_processed": "2-meter",
+            "short_descr": "Government",
+            "descr": "The forests in Kerala are known for their lush greenery and rich biodiversity.\n They cover a significant portion of the state and are home to numerous species of flora and fauna.\n The forests of Kerala offer a serene and tranquil environment, \nattracting nature lovers and wildlife enthusiasts from across the globe.",
+            "img_service": "Bangalore Forest in Karnataka, India",
+            "img_dw": "https://example.com/img_service",
+            "map_service": "http://192.168.8.2:8090/geoserver/Flames/wms?service=WMS&version=1.1.0&request=GetMap&layers=Flames%3ABanglore_1924&bbox=77.52091137834107%2C12.91969743328024%2C77.67167967886726%2C13.027995789996234&width=768&height=551&srs=EPSG%3A4326&styles=&format=application/openlayers",
+            "map_dw": "https://example.com/img_dw",
+            "publish_on": "http://192.168.8.2:8090/geoserver/Flames/wms?service=WMS&version=1.1.0&request=GetMap&layers=Flames%3ABanglore_1924&bbox=77.52091137834107%2C12.91969743328024%2C77.67167967886726%2C13.027995789996234&width=768&height=551&srs=EPSG%3A4326&styles=&format=application/openlayers",
+            "thumbnail": "https://example.com/map_dw",
+            "source": "Google Earth",
+            "created_date": "https://example.com/thumbnail",
+             "img_vis_url":"",
+    "img_download_url":"",
+    "shp_file_url":"",
+    "urlalias":""
+    
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.0,
+          360.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          480.0,
+          0.0
+        ],
+        [
+          480.0,
+          360.0
+        ],
+        [
+          0.0,
+          360.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "C:/Users/DELL/Downloads/480-360-sample.tiff",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    0.0,
+    360.0,
+    480.0,
+    0.0
+  ],
+  "stac_extensions": []
+}

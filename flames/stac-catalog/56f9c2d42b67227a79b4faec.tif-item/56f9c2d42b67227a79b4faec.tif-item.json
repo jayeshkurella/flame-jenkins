@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "56f9c2d42b67227a79b4faec.tif-item",
+  "properties": {
+    "id": 1,
+    "major": "Others",
+    "submajor": "Toposheet",
+    "minor": "Urban Minor",
+    "subminor": "SubUrban",
+    "grade": "A Grade",
+    "file_formats": ".kmz",
+    "type": "null",
+    "source_description": "null",
+    "place_city": "Pune",
+    "year": "2021-01-01",
+    "publisher": "Pune Municipal Corporation",
+    "path": "/Historic GIS/Cities/Classification/City Growth/Benaras",
+    "collection": "Open City Pune",
+    "collection_type": "null",
+    "soi_toposheet_no": "null",
+    "grade1": "null",
+    "data_resolution": "null",
+    "ownership": "null",
+    "is_processed": "null",
+    "short_descr": "null",
+    "descr": "null",
+    "img_service": "null",
+    "img_dw": "null, Validators.required",
+    "map_service": "null, Validators.required",
+    "map_dw": "null",
+    "publish_on": "null",
+    "thumbnail": "null",
+    "source": "null",
+    "created_id": "null",
+    "created_date": "null",
+    "modified_id": "null",
+    "modified_date": "null",
+    "deleted_id": "null",
+    "deleted_date": "null",
+    "img_download_url": "https://oin-hotosm.s3.amazonaws.com/56f9b5a963ebf4bc00074e70/0/56f9c2d42b67227a79b4faec.tif",
+    "img_vis_url": "https://oin-hotosm.s3.amazonaws.com/56f9b5a963ebf4bc00074e70/0/56f9c2d42b67227a79b4faec.tif",
+    "shp_file_url": [
+      {
+        "url": "https://products.coderize.in/geoserver/geoset/wms?service=WMS&version=1.1.0&request=GetMap&layers=geoset%3Atblpunewards&bbox=73.74958801269531%2C18.40921974182129%2C73.96296691894531%2C18.62176513671875&width=768&height=765&srs=EPSG%3A4326&styles=&format=application/openlayers",
+        "urlalias": "Pune Wards"
+      }
+    ],
+    "sub_collection": "Urban Development",
+    "urlalias": "Pune Wards",
+    "datetime": "2023-12-30T13:45:07.368462Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          229579.08329,
+          8056954.580920001
+        ],
+        [
+          229579.08329,
+          8057866.857120001
+        ],
+        [
+          230309.56309,
+          8057866.857120001
+        ],
+        [
+          230309.56309,
+          8056954.580920001
+        ],
+        [
+          229579.08329,
+          8056954.580920001
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://oin-hotosm.s3.amazonaws.com/56f9b5a963ebf4bc00074e70/0/56f9c2d42b67227a79b4faec.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    229579.08329,
+    8056954.580920001,
+    230309.56309,
+    8057866.857120001
+  ],
+  "stac_extensions": []
+}

@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "1920-1080-sample.tiff-item",
+  "properties": {
+   "major": "Taj City",
+            "submajor": "Urban Development",
+            "minor": "Agra",
+            "subminor": "General Information",
+            "grade": "General Information",
+            "file_formats": "A",
+            "type": "PDF",
+            "source_description": "Geospatial",
+            "place_city": "Agra",
+            "year": "1893",
+            "publisher": "Government of Agra",
+            "path": "Government of Agra",
+            "collection": "/path/to/Agra_general_info",
+            "collection_type": "General Information Collection",
+            "soi_toposheet_no": "City Information",
+            "data_resolution": "N/A",
+            "ownership": "A",
+            "is_processed": "Not applicable",
+            "short_descr": "Government",
+            "descr": "Agra is a major tourist destination because of its many Mughal-era buildings, most notably the Taj Mahal",
+            "img_service": "General information about Agra, India",
+            "img_dw": "Agra is a city on the banks of the river Yamuna in the northern state of Uttar Pradesh, India. It is 378 kilometres west of the state capital, Lucknow. Agra is one of the most populous cities in Uttar Pradesh, and the 24th most populous city in India.",
+            "map_service": "http://192.168.8.2:8090/geoserver/Flames/wms?service=WMS&version=1.1.0&request=GetMap&layers=Flames%3Atestagra1&bbox=77.96203515366%2C27.123539872532%2C78.055565701164%2C27.231501362756&width=665&height=768&srs=EPSG%3A4326&styles=&format=application/openlayers",
+            "map_dw": "https://example.com/img_dw",
+            "publish_on": "http://192.168.8.2:8090/geoserver/Flames/wms?service=WMS&version=1.1.0&request=GetMap&layers=Flames%3Atestagra1&bbox=77.96203515366%2C27.123539872532%2C78.055565701164%2C27.231501362756&width=665&height=768&srs=EPSG%3A4326&styles=&format=application/openlayers",
+            "thumbnail": "https://example.com/map_dw",
+            "source": "Google Earth",
+            "created_date": "https://example.com/thumbnail",
+              "img_vis_url":"",
+    "img_download_url":"",
+    "shp_file_url":"",
+    "urlalias":""
+    
+            
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.0,
+          1080.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1920.0,
+          0.0
+        ],
+        [
+          1920.0,
+          1080.0
+        ],
+        [
+          0.0,
+          1080.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "C://Users/DELL/Downloads/1920-1080-sample.tiff",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    0.0,
+    1080.0,
+    1920.0,
+    0.0
+  ],
+  "stac_extensions": []
+}

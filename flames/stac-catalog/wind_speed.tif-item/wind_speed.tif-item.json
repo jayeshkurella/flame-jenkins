@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "wind_speed.tif-item",
+  "properties": {
+    "id": 1,
+    "major": "Others",
+    "submajor": "Toposheet",
+    "minor": "yes",
+    "subminor": "no",
+    "grade": "ab+",
+    "file_formats": ".kmz",
+    "type": "null",
+    "source_description": "null",
+    "place_city": "haveli",
+    "year": "2023-12-29",
+    "publisher": "frompune",
+    "path": "/Historic GIS/Cities/Classification/City Growth/Benaras",
+    "collection": "yes",
+    "collection_type": "null",
+    "soi_toposheet_no": "null",
+    "grade1": "null",
+    "data_resolution": "null",
+    "ownership": "null",
+    "is_processed": "null",
+    "short_descr": "null",
+    "descr": "null",
+    "img_service": "null",
+    "img_dw": "null, Validators.required",
+    "map_service": "null, Validators.required",
+    "map_dw": "null",
+    "publish_on": "null",
+    "thumbnail": "null",
+    "source": "null",
+    "created_id": "null",
+    "created_date": "null",
+    "modified_id": "null",
+    "modified_date": "null",
+    "deleted_id": "null",
+    "deleted_date": "null",
+    "img_download_url": "https://stuartmatthews.github.io/leaflet-geotiff/tif/wind_speed.tif",
+    "img_vis_url": "https://stuartmatthews.github.io/leaflet-geotiff/tif/wind_speed.tif",
+    "shp_file_url": [
+      {
+        "url": "https://products.coderize.in/geoserver/GeoFlow/wms?service=WMS&version=1.1.0&request=GetMap&layers=GeoFlow%3Atblroadestimate&bbox=75.80604553222656%2C17.60103416442871%2C75.98570251464844%2C17.703886032104492&width=768&height=439&srs=EPSG%3A4326&styles=&format=application/openlayers",
+        "urlalias": "tblroadestimate"
+      }
+    ],
+    "sub_collection": "no",
+    "urlalias": "tblroadestimate",
+    "datetime": "2024-01-02T11:43:02.687979Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          140.8732174629773,
+          -37.63500061134497
+        ],
+        [
+          140.8732174629773,
+          -27.985000227888424
+        ],
+        [
+          154.7064181571399,
+          -27.985000227888424
+        ],
+        [
+          154.7064181571399,
+          -37.63500061134497
+        ],
+        [
+          140.8732174629773,
+          -37.63500061134497
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://stuartmatthews.github.io/leaflet-geotiff/tif/wind_speed.tif",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    140.8732174629773,
+    -37.63500061134497,
+    154.7064181571399,
+    -27.985000227888424
+  ],
+  "stac_extensions": []
+}

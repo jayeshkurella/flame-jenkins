@@ -1,0 +1,92 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "file_example_TIFF_5MB.tiff-item",
+  "properties": {
+             "major": "Cultural Heritage",
+            "submajor": "Monuments",
+            "minor": "Taj Mahal",
+            "subminor": "",
+            "grade": "",
+            "file_formats": "A+",
+            "type": "JPEG",
+            "source_description": "Geospatial",
+            "place_city": "Agra",
+            "year": "2020",
+            "publisher": "Archaeological Survey of India",
+            "path": "Archaeological Survey of India",
+            "collection": "/path/to/tajmahal",
+            "collection_type": "Monuments Collection",
+            "soi_toposheet_no": "Heritage Site",
+            "data_resolution": "12345",
+            "ownership": "A+",
+            "is_processed": "1-meter",
+            "short_descr": "Government",
+            "descr": "The Taj Mahal is an iconic mausoleum located in Agra, Uttar Pradesh, India. \nIt is considered one of the most beautiful and famous architectural marvels in the world. Built by Emperor Shah \nJahan in memory of his wife Mumtaz Mahal, the Taj Mahal is renowned for its intricate marble work, stunning gardens, \nand symmetrical design. \nIt is a UNESCO World Heritage Site and attracts millions of visitors every year.",
+            "img_service": "Taj Mahal in Agra, India",
+            "img_dw": "https://example.com/img_service",
+            "map_service": "http://192.168.8.2:8090/geoserver/Flames/wms?service=WMS&version=1.1.0&request=GetMap&layers=Flames%3Aagra2&bbox=77.97610999446303%2C27.14397714103639%2C78.0690279467407%2C27.210721022250013&width=768&height=551&srs=EPSG%3A4326&styles=&format=application/openlayers",
+            "map_dw": "https://example.com/img_dw",
+            "publish_on": "http://192.168.8.2:8090/geoserver/Flames/wms?service=WMS&version=1.1.0&request=GetMap&layers=Flames%3Aagra2&bbox=77.97610999446303%2C27.14397714103639%2C78.0690279467407%2C27.210721022250013&width=768&height=551&srs=EPSG%3A4326&styles=&format=application/openlayers",
+            "thumbnail": "https://example.com/map_dw",
+            "source": "Sentinal",
+            "created_date": "https://example.com/thumbnail",
+             "img_vis_url":"",
+    "img_download_url":"",
+    "shp_file_url":"",
+    "urlalias":""
+   
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.0,
+          934.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1400.0,
+          0.0
+        ],
+        [
+          1400.0,
+          934.0
+        ],
+        [
+          0.0,
+          934.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "D:/CODERIZE_PROJECTS/flames/file_example_TIFF_5MB.tiff",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    0.0,
+    934.0,
+    1400.0,
+    0.0
+  ],
+  "stac_extensions": []
+}

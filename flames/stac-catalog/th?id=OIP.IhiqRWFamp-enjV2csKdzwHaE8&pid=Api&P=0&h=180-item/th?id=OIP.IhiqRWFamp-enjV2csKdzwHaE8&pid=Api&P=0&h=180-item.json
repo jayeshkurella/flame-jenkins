@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "th?id=OIP.IhiqRWFamp-enjV2csKdzwHaE8&pid=Api&P=0&h=180-item",
+  "properties": {
+    "id": 1,
+    "major": "Others",
+    "submajor": "Toposheet",
+    "minor": "yes",
+    "subminor": "no",
+    "grade": "ab+",
+    "file_formats": ".kmz",
+    "type": "null",
+    "source_description": "null",
+    "place_city": "haveli",
+    "year": "2023-12-30",
+    "publisher": "frompune",
+    "path": "/Historic GIS/Cities/Classification/City Growth/Benaras",
+    "collection": "yes",
+    "collection_type": "null",
+    "soi_toposheet_no": "null",
+    "grade1": "null",
+    "data_resolution": "null",
+    "ownership": "null",
+    "is_processed": "null",
+    "short_descr": "null",
+    "descr": "null",
+    "img_service": "null",
+    "img_dw": "null, Validators.required",
+    "map_service": "null, Validators.required",
+    "map_dw": "null",
+    "publish_on": "null",
+    "thumbnail": "null",
+    "source": "null",
+    "created_id": "null",
+    "created_date": "null",
+    "modified_id": "null",
+    "modified_date": "null",
+    "deleted_id": "null",
+    "deleted_date": "null",
+    "img_download_url": "https://tse3.mm.bing.net/th?id=OIP.IhiqRWFamp-enjV2csKdzwHaE8&pid=Api&P=0&h=180",
+    "img_vis_url": "https://stuartmatthews.github.io/leaflet-geotiff/tif/wind_speed.tif",
+    "shp_file_url": [
+      {
+        "url": "https://products.coderize.in/geoserver/GeoFlow/wms?service=WMS&version=1.1.0&request=GetMap&layers=GeoFlow%3Asolapur_allroads&bbox=75.3240966796875%2C17.498483657836914%2C76.11711883544922%2C18.00309181213379&width=768&height=488&srs=EPSG%3A4326&styles=&format=application/openlayers",
+        "urlalias": "pune"
+      }
+    ],
+    "sub_collection": "no",
+    "urlalias": "pune",
+    "datetime": "2023-12-30T10:17:49.270841Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.0,
+          180.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          270.0,
+          0.0
+        ],
+        [
+          270.0,
+          180.0
+        ],
+        [
+          0.0,
+          180.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "image": {
+      "href": "https://tse3.mm.bing.net/th?id=OIP.IhiqRWFamp-enjV2csKdzwHaE8&pid=Api&P=0&h=180",
+      "type": "image/tiff; application=geotiff"
+    }
+  },
+  "bbox": [
+    0.0,
+    180.0,
+    270.0,
+    0.0
+  ],
+  "stac_extensions": []
+}

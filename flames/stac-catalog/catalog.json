@@ -1,0 +1,533 @@
+{
+  "type": "Catalog",
+  "id": "my-stac-catalog",
+  "stac_version": "1.0.0",
+  "description": "My STAC Catalog",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./file_example_TIFF_5MB.tiff-item/file_example_TIFF_5MB.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./file_example_TIFF_5MB.tiff-item/file_example_TIFF_5MB.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./file_example_TIFF_5MB.tiff-item/file_example_TIFF_5MB.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./file_example_TIFF_5MB.tiff-item/file_example_TIFF_5MB.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./file_example_TIFF_5MB.tiff-item/file_example_TIFF_5MB.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./file_example_TIFF_5MB.tiff-item/file_example_TIFF_5MB.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./file_example_TIFF_5MB.tiff-item/file_example_TIFF_5MB.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./480-360-sample.tiff-item/480-360-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1920-1080-sample.tiff-item/1920-1080-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1280-720-sample.tiff-item/1280-720-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1280-720-sample.tiff-item/1280-720-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./1280-720-sample.tiff-item/1280-720-sample.tiff-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./th",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./th",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./56f9c2d42b67227a79b4faec.tif-item/56f9c2d42b67227a79b4faec.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./56f9c2d42b67227a79b4faec.tif-item/56f9c2d42b67227a79b4faec.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./wind_speed.tif-item/wind_speed.tif-item.json",
+      "type": "application/json"
+    }
+  ]
+}
