@@ -1,0 +1,54 @@
+pipeline {
+    agent any
+    
+    environment {
+        VIRTUAL_ENV = "${env.WORKSPACE}/venv"
+        PYTHON = "${env.VIRTUAL_ENV}/bin/python"
+        PIP = "${env.VIRTUAL_ENV}/bin/pip"
+    }
+    
+    stages {
+        stage('Clone Repository') {
+            steps {
+                git branch: 'main', url: 'https://github.com/kharadi-saqib/flame-jenkins.git'
+            }
+        }
+        
+        stage('Set Up Python Virtual Environment') {
+            steps {
+                sh 'python3 -m venv venv'
+            }
+        }
+        
+        stage('Install Dependencies') {
+            steps {
+                sh '${PIP} install -r requirements.txt'
+            }
+        }
+        
+        stage('Run Migrations') {
+            steps {
+                sh '${PYTHON} manage.py migrate'
+            }
+        }
+        
+        stage('Run Tests') {
+            steps {
+                sh '${PYTHON} manage.py test'
+            }
+        }
+        
+        stage('Run Server') {
+            steps {
+                sh '${PYTHON} manage.py runserver 0.0.0.0:8000'
+            }
+        }
+    }
+    
+    post {
+        always {
+            echo 'Cleaning up...'
+            sh 'rm -rf venv'
+        }
+    }
+}
